@@ -1,19 +1,22 @@
-//WEB322 Assignment1
-//I declare that this assignment is my own work in accordance with Seneca Academic
-//No part of this assignment has been copied manually or electronically from * any other source (including web sites) or distributed to other students.
+/*********************************************************************************
+*  WEB322 – Assignment 1
+*  I declare that this assignment is my own work in accordance with Seneca  Academic Policy.  
+*  No part of this assignment has been copied manually or electronically from any other source
+*  (including web sites) or distributed to other students.
+* 
+*  Name: Pusit Treeraganont Student ID: 146566211 Date: 06/09/2022
+*
+*  Online (Cyclic) URL:  https://purple-bison-tutu.cyclic.app
+*
+********************************************************************************/ 
 
-//Name: Pusit Treeraganont
-//Student ID: 146566211
-//student email : ptreeraganont@myseneca.com
-
-//
 var HTTP_PORT = process.env.PORT || 8080;
 var express = require("express");
 var app = express();
 
 // setup a 'route' to listen on the default url path
 app.get("/", (req, res) => {
-    res.send("Hello World! Mr. Pusit Treeraganont");
+    res.send(" Mr. Pusit Treeraganont ID: 146566211");
 });
 
 // setup http server to listen on HTTP_PORT
